@@ -1,0 +1,5 @@
+---
+- name: Nest role test
+  hosts: all
+  tasks:
+    - ansible.builtin.import_role: name=common/role1

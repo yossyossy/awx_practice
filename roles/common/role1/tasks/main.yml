@@ -1,0 +1,4 @@
+---
+- name: output msg
+  ansible.builtin.debug:
+    msg: "hello role1 main"
